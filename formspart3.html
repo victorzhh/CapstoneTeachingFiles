@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <h1>Puppy Adoption Form!</h1>
+
+
+    <!-- Things we will cover
+    1. Linking Radio Buttons
+    2. Drop-down Menus
+    3. Text Area inputs -->
+
+
+    <!-- RADIO INPUTS!! -->
+    <!-- A 'radio' input is like a multiple choice question -->
+    <!-- To work, you need the type='radio', and the same name attribute for all 'questions' -->
+    <!-- If you have a label, you also need an id attribute -->
+    <form method="get">
+        <h3>Do you already own a dog?</h3>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="dog_choice" value="yes">
+
+
+        <label for="no">No:</label>
+        <input type="radio" id="no" name= "dog_choice" value="no">
+
+
+        <!-- SELECT -->
+        <!-- The dropdown is not an input type, but rather it's own tag -->
+        <!-- To work, you have the select tag with a name attribute -->
+        <!-- Then within the opening/closing select tags, you need an option tag with a value attribute -->
+        <p>How clean is your house (Rated 1-3 with 3 being cleanest))</p>
+        <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+        </select>
+
+
+
+
+        <p>Any other comments?</p>
+        <!-- TEXT AREA -->
+        <!-- text area is another input type that has it's own tag -->
+        <!-- To work, you have the text area tag with a name attribute, and you can pick the size with rows and cols attributes -->
+        <textarea name="name" rows="8" cols="80"></textarea>
+
+
+        <!-- SUBMIT -->
+        <!-- Remember you should have 1 submit per form, the value shows up on the button -->
+        <!-- IF you give the submit a name and value, it will save in the URL just like any other type! -->
+        <input type="submit" name="" value="Submit Feedback">
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
+
+
+
