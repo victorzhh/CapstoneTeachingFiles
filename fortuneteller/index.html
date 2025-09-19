@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="ball.jpeg" alt="ball">
+    
     <!-- this is the start of content -->
-    <h1>
+   <img src="ball.jpg" alt="ball"> 
+   <h1>
       Fortune Teller
     </h1>
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
       <b><label for="namefield">Name:</label></b>
       <input type="text" id="namefield" name="name" placeholder="your name" required>
       <br>
+
       <b><label for="questionfield">Question:</label></b>
       <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
       <br>
@@ -34,6 +36,7 @@
       <b><label for="age">Age:</label></b>
         <input type="text" id="age" name="user_age" placeholder="your age" required>
         <br> <br>
+
       <b><label for="time" required>Choose the third of the year you were born in:</label></b>
         <select id="time" name="time">
           <option value="first">First third(January, February, March, April)</option>
@@ -41,10 +44,12 @@
           <option value="third">Third third(September, October, November, December)</option>
         </select>
         <br> <br>
+        
       <b><label for="fingers" required>How many fingers do you have:</label></b>
       <br>
         <textarea name="fingers" rows="10" cols="30"></textarea>
       <br> <br>
+
       <p><b>Which color(s) do you like:</b></p>
         <input type="checkbox" id="colors1" name="colors1" value="blue"></input>
         <label for="colors1">Blue</label><br>
@@ -53,7 +58,7 @@
         <input type="checkbox" id="colors3" name="colors3" value="green"></input>
         <label for="colors3">Green</label><br>
 
-        <label for="favoritecolor"> Select your favorite color:</label> 
+      <em><label for="favoritecolor"> Select your favorite color:</label></em> 
         <input type="color" id="favoritecolor" name="favoritecolor">
         <br> <br>
 
